@@ -1,0 +1,24 @@
+Descrição da solução
+
+Busquei realizar o teste utilizado o javascript puro por ser um critério que conta mais para avaliação. Apesar de
+está mais acostumado a utilizar a biblioteca jQuery e a framework Angular. Isso me atrasou um por pois tive que 
+relembrar algumas técnicas de como fazer funcionar. Mas isso foi bom! 
+A solução se baseia em criar um formulário com um inputs que ao serem submetidos terão seus valores enviados através
+de uma função que persistes os dados no localStorage. Em outra página é possível visualizar os contatos adicionados
+e através de uma função deletar() excluir os dados da tabela. 
+
+1 - Me conte uma breve descrição do que você define como a função de um desenvolvedor front end.
+Acredito que o desenvolvedor front-end tem a função de transformar a interação com o sistema em uma boa experiência
+agradável, bonita e eficiente. Também deve ter a capacidade de consumir e alimentar APIs que são necessárias para 
+a realizar a solução proposta pelo sistema.
+
+2 - Qual a sua opinião sobre criar sites em Wordpress? E qual a diferença deste CMS para um app SPA? Tem alguma vantagem ou desvantagem?
+Acredito que o Wordpress facilita bastante em muitos casos o trabalho do desenvolvedor front-end. É possível se criar sites com o wordpress mesmo
+sem muitos conhecimento em programação. Para se criar sites com um objetivo simples e caso o desenvolvedor não tenha muitas habilidades com programação
+o wordpress é uma ferramenta muito útil. Em relação ao o SPA, é necessário quando se deseja ter uma solução onde o carregamento de páginas tem de ser
+muito eficiente e com uma solução mais robusta. 
+ 
+3 - Qual a sua visão sobre o conceito Mobile First?
+
+O mobile first é um paradigma de desenvolvimento muito interessante por ser mais fácil se pensar o conteúdo e disposição dos elementos 
+de um site primeiro em telas menores e demais maiores. Facilitando a no processo de desenvolvimento da responsividade do sistema.

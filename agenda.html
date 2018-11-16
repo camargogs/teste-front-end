@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Agenda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="form_container" id="container">
+        <div class="container_btns1">
+            <a href="agenda.html"><button class="btn_agenda">Agenda</button></a>
+            <a href="contatos.html"><button class="btn_contatos" >Contatos</button></a>             
+        </div>
+        <form name="form"class="form" action="" onsubmit="return submeteu()" method="post">
+            <label for="input_nome">Nome completo (sem abreviações)</label>
+            <input type="text" name="input_nome" class="input_nome" id="" required>
+            <p id="alert_nome">Campo deve conter 3 caracteres ou mais</p>
+            <label for="input_email">E-mail</label>
+            <input type="email"  name= "input_email"class="input_email" required>
+            <p id="alert_email">Esse não é um email válido</p>
+            <label for="input_cpf">CPF</label>
+            <input type="text" name="input_cpf" class="input_cpf" required>
+            <p id="alert_cpf">Esse CPF não é válido</p>
+            <label for="input_telefone">Telefone</label>
+            <input type="text" name = "input_telefone" class="input_telefone" required>
+            <p id="alert_telefone">Esse Telefone não é válido</p>
+            <button type="submit" class="submit_button" ><span id="submit_button">Cadastrar</span><div class="loader" id = "loader"></div></button>
+        </form>
+        
+    </div>
+</body>
+</html>

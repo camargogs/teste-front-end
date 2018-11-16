@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <title>Agenda</title>
+</head>
+<body onload="contatos()">
+    <div class="table_container">
+            <div class="container_btns2">
+                    <a href="agenda.html"><button class="btn_agenda">Agenda</button></a>
+                    <a href="contatos.html"><button class="btn_contatos" >Contatos</button></a>             
+            </div>
+        <table class="contato_table" id="contato_table" style="width:100%">
+            <tr>
+                <th></th>
+                <th>Nome</th>
+                <th>Email</th> 
+                <th>CPF</th>
+                <th>Telefone</th>
+            </tr>
+            <tr class="tr_contato" id="tr_contato" onclick="deletar()">
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
